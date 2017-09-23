@@ -11,16 +11,20 @@ Base Styles
 
 body {
   position: relative;
+  margin: -2px;
 }
 
 .gallery {
   position: fixed;
   top: 0;
+  width: 100%%;
+
 }
 
 .page1 {
   opacity: .6;
   transition: opacity .5s, transform 4s;
+
 }
 
 .current {
@@ -64,11 +68,12 @@ header a {
   text-decoration: none;
   position: fixed;
   z-index: 20;
-  top: 10px;
+  top: 15px;
+  left: 15px;
   color: white;
   font-family: Helvetica;
   letter-spacing: 2px;
-  /*word-wrap: break-word;*/
+  font-size: 25px;
 
 }
 

@@ -8,7 +8,7 @@ if ($(window).width() > 850) {
   $('.page1').eq(currentImageNumber).addClass('current');
 
   setInterval(function () {
-    if (currentImageNumber === 4) {
+    if (currentImageNumber === 3) {
      currentImageNumber = 0;
    } else {
      currentImageNumber += 1;
